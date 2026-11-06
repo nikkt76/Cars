@@ -4,726 +4,238 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>| Luxury Tesla Model 3 Rental San Diego</title>
+<title>Pacific SD | Tesla Model 3 Premium Long Range</title>
 
 <style>
 
 :root{
-    --ocean:#3d87c9;
-    --ocean-dark:#24639c;
-    --gold:#b9914a;
-    --sand:#f8f5ef;
-    --charcoal:#1e1e1e;
-    --light:#ffffff;
+--ocean:#3d87c9;
+--ocean-dark:#24639c;
+--gold:#b9914a;
+--sand:#f8f5ef;
+--charcoal:#1f1f1f;
+--white:#ffffff;
 }
 
 *{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 
 html{
-    scroll-behavior:smooth;
+scroll-behavior:smooth;
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
-    color:var(--charcoal);
-    line-height:1.7;
-    background:white;
+font-family:Arial, Helvetica, sans-serif;
+color:var(--charcoal);
+background:white;
+line-height:1.7;
 }
 
 /* HERO */
 
 .hero{
-    min-height:100vh;
+min-height:100vh;
 
-    background:
-    linear-gradient(
-        rgba(0,0,0,.35),
-        rgba(0,0,0,.35)
-    ),
-    url("pacificsd-exterior.jpg");
+background:
+linear-gradient(
+rgba(0,0,0,.35),
+rgba(0,0,0,.35)
+),
+url("pacificsd-exterior.jpg");
 
-    background-size:cover;
-    background-position:center center;
+background-size:cover;
+background-position:center;
 
-    display:flex;
-    justify-content:center;
-    align-items:center;
+display:flex;
+align-items:center;
+justify-content:center;
 
-    text-align:center;
-    color:white;
+text-align:center;
+color:white;
 
-    padding:30px;
+padding:40px;
 }
 
 .hero-content{
-    max-width:950px;
+max-width:900px;
 }
 
 .logo{
-    color:var(--gold);
-    font-size:18px;
-    letter-spacing:4px;
-    text-transform:uppercase;
-    margin-bottom:20px;
+font-size:18px;
+letter-spacing:5px;
+text-transform:uppercase;
+color:var(--gold);
+margin-bottom:20px;
 }
 
 .hero h1{
-    font-size:clamp(4rem,8vw,7rem);
-    margin-bottom:20px;
-    font-weight:700;
+font-size:clamp(3rem,8vw,6rem);
+font-weight:700;
+margin-bottom:20px;
 }
 
 .hero h2{
-    font-size:clamp(1.8rem,4vw,3rem);
-    font-weight:300;
-    margin-bottom:30px;
+font-size:clamp(1.2rem,4vw,2.5rem);
+font-weight:300;
+margin-bottom:30px;
 }
 
 .hero p{
-    max-width:750px;
-    margin:0 auto 40px;
-    font-size:1.3rem;
+font-size:1.2rem;
+max-width:700px;
+margin:0 auto 50px;
+}
+
+/* BUTTONS */
+
+.button-row{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
 }
 
 .button{
-    display:inline-block;
+display:inline-flex;
+justify-content:center;
+align-items:center;
 
-    background:var(--ocean);
+padding:20px 42px;
 
-    color:white;
+border-radius:999px;
 
-    text-decoration:none;
+font-size:18px;
+font-weight:700;
 
-    padding:18px 42px;
+text-decoration:none;
 
-    border-radius:999px;
+transition:.3s;
 
-    font-size:1.1rem;
-
-    font-weight:bold;
-
-    transition:.3s;
+min-width:240px;
 }
 
-.button:hover{
-    background:var(--ocean-dark);
-    transform:translateY(-2px);
+.primary-button{
+
+background:
+linear-gradient(
+135deg,
+#63aef3,
+#2f79be
+);
+
+color:white;
+
+box-shadow:
+0 20px 40px rgba(47,121,190,.35);
+}
+
+.primary-button:hover{
+transform:translateY(-3px);
+}
+
+.secondary-button{
+
+background:rgba(255,255,255,.20);
+
+backdrop-filter:blur(10px);
+
+border:1px solid rgba(255,255,255,.4);
+
+color:white;
+}
+
+.secondary-button:hover{
+background:rgba(255,255,255,.30);
 }
 
 /* SECTIONS */
 
 .section{
-    padding:120px 30px;
+padding:120px 30px;
 }
 
 .container{
-    max-width:1200px;
-    margin:auto;
+max-width:1200px;
+margin:auto;
 }
 
 .center{
-    text-align:center;
+text-align:center;
 }
 
 .section-title{
-    font-size:3rem;
-    margin-bottom:25px;
+font-size:clamp(2.2rem,5vw,3.5rem);
+margin-bottom:20px;
 }
 
 .section-subtitle{
-    max-width:850px;
-    margin:auto;
-    color:#555;
-    font-size:1.2rem;
+max-width:850px;
+margin:auto;
+font-size:1.2rem;
+color:#666;
 }
 
-/* WAVE */
-
 .wave{
-    height:8px;
+height:8px;
 
-    background:
-    linear-gradient(
-        90deg,
-        #55a5ee,
-        #88c8ff,
-        #55a5ee
-    );
+background:
+linear-gradient(
+90deg,
+#61b0f2,
+#9cd3ff,
+#61b0f2
+);
 }
 
 /* FEATURES */
 
 .features{
-    display:grid;
-    grid-template-columns:
-    repeat(auto-fit,minmax(280px,1fr));
-    gap:30px;
 
-    margin-top:70px;
+display:grid;
+
+grid-template-columns:
+repeat(auto-fit,minmax(280px,1fr));
+
+gap:30px;
+
+margin-top:60px;
 }
 
 .card{
-    background:white;
-    padding:40px;
-    border-radius:24px;
-    box-shadow:0 15px 40px rgba(0,0,0,.08);
+
+padding:40px;
+
+background:white;
+
+border-radius:30px;
+
+box-shadow:
+0 15px 40px rgba(0,0,0,.08);
 }
 
 .card h3{
-    margin-bottom:15px;
-    color:var(--ocean-dark);
+margin-bottom:15px;
+color:var(--ocean-dark);
 }
 
-/* IMAGE SECTION */
+/* IMAGE SECTIONS */
 
 .image-section{
-    min-height:700px;
 
-    background-size:cover;
-    background-position:center;
+min-height:700px;
 
-    display:flex;
-    align-items:center;
+background-size:cover;
+background-position:center;
 
-    color:white;
+display:flex;
+align-items:center;
+
+color:white;
 }
 
 .image-overlay{
-    width:100%;
-    background:rgba(0,0,0,.4);
-    padding:100px 30px;
-}
 
-.image-content{
-    max-width:700px;
-    margin:auto;
-    text-align:center;
-}
-
-.image-content h2{
-    font-size:3rem;
-    margin-bottom:25px;
-}
-
-/* DESTINATIONS */
-
-.destinations{
-    display:grid;
-    grid-template-columns:
-    repeat(auto-fit,minmax(250px,1fr));
-
-    gap:25px;
-    margin-top:60px;
-}
-
-.destination{
-    background:var(--sand);
-    border-radius:18px;
-    padding:35px;
-    text-align:center;
-    font-weight:bold;
-}
-
-/* CTA */
-
-.cta{
-    background:#101820;
-    color:white;
-}
-
-.cta h2{
-    font-size:3rem;
-    margin-bottom:25px;
-}
-
-/* FOOTER */
-
-footer{
-    background:#081018;
-    color:white;
-    text-align:center;
-    padding:30px;
-}
-
-/* MOBILE */
-
-@media(max-width:768px){
-
-.hero h1{
-    font-size:3.5rem;
-}
-
-.hero h2{
-    font-size:1.8rem;
-}
-
-.section-title{
-    font-size:2.2rem;
-}
-
-.image-content h2{
-    font-size:2rem;
-}
-
-}
-
-</style>
-
-</head>
-
-<body>
-
-<section class="hero">
-
-<div class="hero-content">
-
-<footer>
-    
-/* ===============================
-   RESERVATION SECTION
-================================ */
-
-.reservation-section {
-
-    background:
-    linear-gradient(
-        180deg,
-        #04162b,
-        #072746
-    );
-
-    padding: 180px 30px;
-
-    position: relative;
-}
-
-.reservation-container {
-
-    max-width: 900px;
-
-    margin: 0 auto;
-}
-
-.reservation-header {
-
-    text-align: center;
-
-    margin-bottom: 70px;
-}
-
-.reservation-kicker {
-
-    color: #b9914a;
-
-    letter-spacing: 4px;
-
-    text-transform: uppercase;
-
-    font-size: 14px;
-
-    margin-bottom: 20px;
-}
-
-.reservation-header h2 {
-
-    color: white;
-
-    font-size: 4rem;
-
-    line-height: 1.1;
-
-    margin-bottom: 30px;
-}
-
-.reservation-header p {
-
-    color: rgba(255,255,255,.75);
-
-    font-size: 1.25rem;
-
-    max-width: 700px;
-
-    margin: 0 auto;
-}
-
-/* ===============================
-   FORM CARD
-================================ */
-
-.booking-form {
-
-    background: rgba(255,255,255,.98);
-
-    padding: 60px;
-
-    border-radius: 36px;
-
-    box-shadow:
-        0 30px 80px rgba(0,0,0,.25);
-
-}
-
-/* ===============================
-   FORM GROUPS
-================================ */
-
-.form-group {
-
-    margin-bottom: 28px;
-}
-
-.form-group label {
-
-    display: block;
-
-    color: #1e1e1e;
-
-    font-weight: 600;
-
-    margin-bottom: 10px;
-
-    font-size: 15px;
-}
-
-.booking-form input,
-.booking-form textarea {
-
-    width: 100%;
-
-    border: none;
-
-    background: #f5f7fa;
-
-    border-radius: 22px;
-
-    padding: 22px;
-
-    font-size: 17px;
-
-    transition: all .25s ease;
-}
-
-.booking-form input:focus,
-.booking-form textarea:focus {
-
-    outline: none;
-
-    background: white;
-
-    box-shadow:
-        0 0 0 4px rgba(61,135,201,.18);
-}
-
-.booking-form textarea {
-
-    min-height: 180px;
-
-    resize: vertical;
-}
-
-/* ===============================
-   DATE FIELDS
-================================ */
-
-.date-grid {
-
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
-
-    gap: 24px;
-}
-
-/* ===============================
-   PREMIUM CTA BUTTON
-================================ */
-
-.reserve-button {
-
-    width: 100%;
-
-    border: none;
-
-    cursor: pointer;
-
-    padding: 24px;
-
-    margin-top: 15px;
-
-    border-radius: 999px;
-
-    color: white;
-
-    font-size: 20px;
-
-    font-weight: 700;
-
-    letter-spacing: .3px;
-
-    background:
-    linear-gradient(
-        135deg,
-        #5da4e6,
-        #2f79be
-    );
-
-    box-shadow:
-        0 20px 40px rgba(47,121,190,.35);
-
-    transition: all .3s ease;
-}
-
-.reserve-button:hover {
-
-    transform: translateY(-3px);
-
-    box-shadow:
-        0 28px 50px rgba(47,121,190,.45);
-}
-
-/* ===============================
-   MOBILE
-================================ */
-
-@media (max-width: 768px) {
-
-    .reservation-section {
-        padding: 120px 20px;
-    }
-
-    .reservation-header h2 {
-        font-size: 2.8rem;
-    }
-
-    .booking-form {
-        padding: 35px;
-        border-radius: 28px;
-    }
-
-    .date-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
-</div>
-
-</section>
-
-<div class="wave"></div>
-
-<section class="section">
-
-<div class="container center">
-
-<h2 class="section-title">
-Luxury Tesla Experiences
-</h2>
-
-<div class="features">
-
-<div class="card">
-<h3>Unlimited Supercharging Option</h3>
-</div>
-
-<div class="card">
-<h3>Black On Black Luxury</h3>
-<p>
-Minimalist Tesla design paired with premium comfort.
-</p>
-</div>
-
-<div class="card">
-<h3>Full Self Driving</h3>
-<p>
-Large touchscreen, premium audio, navigation,
-and Full Self Driving capability.
-</p>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section
-class="image-section"
-style="background-image:url('pacificsd-interior.jpg');">
-
-<div class="image-overlay">
-
-<div class="image-content">
-
-<h2>Designed Around Comfort</h2>
-
-<p>
-The premium interior combines spacious seating,
-modern design, and an immersive driving experience.
-Perfect for business travel, vacations,
-or a weekend along the coast.
-</p>
-
-</div>
-
-</div>
-
-</section>
-
-<div class="wave"></div>
-
-<section class="section">
-
-<div class="container center">
-
-<h2 class="section-title">
-Explore San Diego
-</h2>
-
-<p class="section-subtitle">
-
-Some of Southern California's most iconic destinations
-are just a drive away.
-
-</p>
-
-<div class="destinations">
-
-<div class="destination">La Jolla Cove</div>
-
-<div class="destination">Coronado Island</div>
-
-<div class="destination">Torrey Pines</div>
-
-<div class="destination">Balboa Park</div>
-
-<div class="destination">Del Mar</div>
-
-<div class="destination">Gaslamp Quarter</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section
-class="image-section"
-style="background-image:url('pacificsd-driver.jpg');">
-
-<div class="image-overlay">
-
-<div class="image-content">
-
-</div>
-
-</div>
-
-</section>
-
-<section class="section cta">
-
-<div class="container center">
-
-<h2>
-Ready To Experience San Diego?
-</h2>
-
-<p style="margin-bottom:40px; max-width:800px; margin-left:auto; margin-right:auto;">
-
-Reserve a Tesla Model 3 with FSD securely through Turo.
-
-</p>
-    
-<footer>
- <section class="section" id="reservation">
-
-<div class="container">
-
-<h2 class="section-title center">
-Request a Reservation
-</h2>
-
-<p class="section-subtitle center">
-Tell us about your trip and we will confirm
-availability as quickly as possible.
-</p>
-
-<form
-action="YOUR_FORMSPREE_URL"
-method="POST"
-class="booking-form">
-
-<input
-type="text"
-name="name"
-placeholder="Full Name"
-required>
-
-<input
-type="email"
-name="email"
-placeholder="Email Address"
-required>
-
-<input
-type="tel"
-name="phone"
-placeholder="Phone Number">
-
-<label>
-Pickup Date
-</label>
-
-<input
-type="date"
-name="pickup"
-required>
-
-<label>
-Return Date
-</label>
-
-<input
-type="date"
-name="return"
-required>
-
-<textarea
-name="message"
-rows="5"
-placeholder="Anything we should know about your trip?">
-</textarea>
-
-<button type="submit">
-Request Reservation
-</button>
-
-</form>
-
-</div>
-
-</section>
-    
-<a
-class="button"
-href="#reservation"
->
-Check Availability
-</a>
-
-</div>
-
-</section>
-
-<footer>
-
-© 2026 Pacific SD • San Diego, California
-
-</footer>
-
-</body>
-</html>
+width:100%
