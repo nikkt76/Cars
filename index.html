@@ -50,4 +50,420 @@ body{
     background-position:center center;
 
     display:flex;
-    
+    justify-content:center;
+    align-items:center;
+
+    text-align:center;
+    color:white;
+
+    padding:30px;
+}
+
+.hero-content{
+    max-width:950px;
+}
+
+.logo{
+    color:var(--gold);
+    font-size:18px;
+    letter-spacing:4px;
+    text-transform:uppercase;
+    margin-bottom:20px;
+}
+
+.hero h1{
+    font-size:clamp(4rem,8vw,7rem);
+    margin-bottom:20px;
+    font-weight:700;
+}
+
+.hero h2{
+    font-size:clamp(1.8rem,4vw,3rem);
+    font-weight:300;
+    margin-bottom:30px;
+}
+
+.hero p{
+    max-width:750px;
+    margin:0 auto 40px;
+    font-size:1.3rem;
+}
+
+.button{
+    display:inline-block;
+
+    background:var(--ocean);
+
+    color:white;
+
+    text-decoration:none;
+
+    padding:18px 42px;
+
+    border-radius:999px;
+
+    font-size:1.1rem;
+
+    font-weight:bold;
+
+    transition:.3s;
+}
+
+.button:hover{
+    background:var(--ocean-dark);
+    transform:translateY(-2px);
+}
+
+/* SECTIONS */
+
+.section{
+    padding:120px 30px;
+}
+
+.container{
+    max-width:1200px;
+    margin:auto;
+}
+
+.center{
+    text-align:center;
+}
+
+.section-title{
+    font-size:3rem;
+    margin-bottom:25px;
+}
+
+.section-subtitle{
+    max-width:850px;
+    margin:auto;
+    color:#555;
+    font-size:1.2rem;
+}
+
+/* WAVE */
+
+.wave{
+    height:8px;
+
+    background:
+    linear-gradient(
+        90deg,
+        #55a5ee,
+        #88c8ff,
+        #55a5ee
+    );
+}
+
+/* FEATURES */
+
+.features{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+
+    margin-top:70px;
+}
+
+.card{
+    background:white;
+    padding:40px;
+    border-radius:24px;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+}
+
+.card h3{
+    margin-bottom:15px;
+    color:var(--ocean-dark);
+}
+
+/* IMAGE SECTION */
+
+.image-section{
+    min-height:700px;
+
+    background-size:cover;
+    background-position:center;
+
+    display:flex;
+    align-items:center;
+
+    color:white;
+}
+
+.image-overlay{
+    width:100%;
+    background:rgba(0,0,0,.4);
+    padding:100px 30px;
+}
+
+.image-content{
+    max-width:700px;
+    margin:auto;
+    text-align:center;
+}
+
+.image-content h2{
+    font-size:3rem;
+    margin-bottom:25px;
+}
+
+/* DESTINATIONS */
+
+.destinations{
+    display:grid;
+    grid-template-columns:
+    repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+    margin-top:60px;
+}
+
+.destination{
+    background:var(--sand);
+    border-radius:18px;
+    padding:35px;
+    text-align:center;
+    font-weight:bold;
+}
+
+/* CTA */
+
+.cta{
+    background:#101820;
+    color:white;
+}
+
+.cta h2{
+    font-size:3rem;
+    margin-bottom:25px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#081018;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+/* MOBILE */
+
+@media(max-width:768px){
+
+.hero h1{
+    font-size:3.5rem;
+}
+
+.hero h2{
+    font-size:1.8rem;
+}
+
+.section-title{
+    font-size:2.2rem;
+}
+
+.image-content h2{
+    font-size:2rem;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="logo">PACIFIC SD</div>
+
+<h1>Pacific SD</h1>
+
+<h2>2026 Tesla Model 3 Premium Long Range</h2>
+
+<p>
+Luxury black-on-black Tesla experiences across San Diego.
+Enjoy premium technology, exceptional range,
+and effortless coastal driving.
+</p>
+
+<a
+class="button"
+href="https://turo.com/us/en/car-rental/united-states/san-diego-ca/tesla/model-3/3779282"
+target="_blank">
+Book on Turo
+</a>
+
+</div>
+
+</section>
+
+<div class="wave"></div>
+
+<section class="section">
+
+<div class="container center">
+
+<h2 class="section-title">
+Luxury Tesla Experiences
+</h2>
+
+<p class="section-subtitle">
+
+Pacific SD offers a premium Tesla Model 3 Long Range experience
+in San Diego. From La Jolla sunsets to Coronado drives,
+experience Southern California in comfort, technology,
+and style.
+
+</p>
+
+<div class="features">
+
+<div class="card">
+<h3>Unlimited Supercharging Option</h3>
+</div>
+
+<div class="card">
+<h3>Black On Black Luxury</h3>
+<p>
+Minimalist Tesla design paired with premium comfort.
+</p>
+</div>
+
+<div class="card">
+<h3>Advanced Technology</h3>
+<p>
+Large touchscreen, premium audio, navigation,
+and Full Self Driving capability.
+</p>
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section
+class="image-section"
+style="background-image:url('pacificsd-interior.jpg');">
+
+<div class="image-overlay">
+
+<div class="image-content">
+
+<h2>Designed Around Comfort</h2>
+
+<p>
+The premium interior combines spacious seating,
+modern design, and an immersive driving experience.
+Perfect for business travel, vacations,
+or a weekend along the coast.
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<div class="wave"></div>
+
+<section class="section">
+
+<div class="container center">
+
+<h2 class="section-title">
+Explore San Diego
+</h2>
+
+<p class="section-subtitle">
+
+Some of Southern California's most iconic destinations
+are just a drive away.
+
+</p>
+
+<div class="destinations">
+
+<div class="destination">La Jolla Cove</div>
+
+<div class="destination">Coronado Island</div>
+
+<div class="destination">Torrey Pines</div>
+
+<div class="destination">Balboa Park</div>
+
+<div class="destination">Del Mar</div>
+
+<div class="destination">Gaslamp Quarter</div>
+
+</div>
+
+</div>
+
+</section>
+
+<section
+class="image-section"
+style="background-image:url('pacificsd-driver.jpg');">
+
+<div class="image-overlay">
+
+<div class="image-content">
+
+<h2>Tesla Technology</h2>
+
+<p>
+
+Advanced navigation, intuitive controls,
+premium connectivity,
+and one of the most refined EV experiences available.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="section cta">
+
+<div class="container center">
+
+<h2>
+Ready To Experience San Diego?
+</h2>
+
+<p style="margin-bottom:40px; max-width:800px; margin-left:auto; margin-right:auto;">
+
+Reserve your Pacific SD Tesla Model 3 securely through Turo.
+
+</p>
+
+<a
+class="button"
+href="https://turo.com/us/en/car-rental/united-states/san-diego-ca/tesla/model-3/3779282"
+target="_blank">
+Book on Turo
+</a>
+
+</div>
+
+</section>
+
+<footer>
+
+© 2026 Pacific SD • San Diego, California
+
+</footer>
+
+</body>
+</html>
