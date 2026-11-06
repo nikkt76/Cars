@@ -1,103 +1,53 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Pacific SD</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Pacific SD | Luxury Tesla Model 3 Rental San Diego</title>
 
 <style>
 
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
+:root{
+    --ocean:#3d87c9;
+    --ocean-dark:#24639c;
+    --gold:#b9914a;
+    --sand:#f8f5ef;
+    --charcoal:#1e1e1e;
+    --light:#ffffff;
 }
 
-.hero {
-    height: 100vh;
-
-    background-image:
-      linear-gradient(
-      rgba(0,0,0,.45),
-      rgba(0,0,0,.45)),
-      url("pacificsd-exterior.jpg");
-
-    background-size: cover;
-    background-position: center;
-
-    color: white;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    text-align: center;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-.hero-content {
-    max-width: 800px;
-    padding: 20px;
+html{
+    scroll-behavior:smooth;
 }
 
-.hero h1 {
-    font-size: 72px;
-    margin-bottom: 10px;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color:var(--charcoal);
+    line-height:1.7;
+    background:white;
 }
 
-.hero h2 {
-    font-size: 40px;
-}
+/* HERO */
 
-.hero p {
-    font-size: 24px;
-    margin-top: 20px;
-}
+.hero{
+    min-height:100vh;
 
-.button {
-    display: inline-block;
+    background:
+    linear-gradient(
+        rgba(0,0,0,.35),
+        rgba(0,0,0,.35)
+    ),
+    url("pacificsd-exterior.jpg");
 
-    background: #2196f3;
+    background-size:cover;
+    background-position:center center;
 
-    color: white;
-
-    padding: 15px 30px;
-
-    border-radius: 10px;
-
-    text-decoration: none;
-
-    margin-top: 30px;
-}
-
-</style>
-</head>
-
-<body>
-
-<div class="hero">
-
-<div class="hero-content">
-
-<h1>Pacific SD</h1>
-
-<h2>
-2026 Tesla Model 3 Premium Long Range
-</h2>
-
-<p>
-Luxury black-on-black Tesla rental in San Diego.
-</p>
-
-<a
-class="button"
-href="https://turo.com/us/en/car-rental/united-states/san-diego-ca/tesla/model-3/3779282"
-target="_blank">
-
-Book on Turo
-
-</a>
-
-</div>
-
-</div>
-
-</body>
-
-</html>
+    display:flex;
+    
