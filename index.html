@@ -281,6 +281,8 @@ footer{
 
 <div class="hero-content">
 
+<footer>
+    
 <a
 class="button"
 href="#reservation"
@@ -416,7 +418,77 @@ Ready To Experience San Diego?
 Reserve a Tesla Model 3 with FSD securely through Turo.
 
 </p>
+    
+<footer>
+ <section class="section" id="reservation">
 
+<div class="container">
+
+<h2 class="section-title center">
+Request a Reservation
+</h2>
+
+<p class="section-subtitle center">
+Tell us about your trip and we will confirm
+availability as quickly as possible.
+</p>
+
+<form
+action="YOUR_FORMSPREE_URL"
+method="POST"
+class="booking-form">
+
+<input
+type="text"
+name="name"
+placeholder="Full Name"
+required>
+
+<input
+type="email"
+name="email"
+placeholder="Email Address"
+required>
+
+<input
+type="tel"
+name="phone"
+placeholder="Phone Number">
+
+<label>
+Pickup Date
+</label>
+
+<input
+type="date"
+name="pickup"
+required>
+
+<label>
+Return Date
+</label>
+
+<input
+type="date"
+name="return"
+required>
+
+<textarea
+name="message"
+rows="5"
+placeholder="Anything we should know about your trip?">
+</textarea>
+
+<button type="submit">
+Request Reservation
+</button>
+
+</form>
+
+</div>
+
+</section>
+    
 <a
 class="button"
 href="#reservation"
